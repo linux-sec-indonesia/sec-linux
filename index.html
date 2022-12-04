@@ -48,6 +48,20 @@ color:lawngreen;
   height:100%;
   top:0px;
 }
+
+.bilah_samping .bagian_bawah {
+justify-content: center;
+align-items: center;
+
+bottom: 0px;
+color: white;
+display: flex;
+justify-content: center;
+left: auto;
+position: fixed;
+right: auto;
+}
+
 .bilah_samping h5{
   color:lawngreen;
   text-align:center;
@@ -269,7 +283,7 @@ z-index:999999999999999999999;
     <!--<div class="cancel">✕</div>-->
   </div>
   
-  <h4>Your current location is:</h4><h5> <span class="location"></span></h5>
+ <div class="bagian_bawah"> <h4>Lokasi Perangkat Anda:</h4><h5> <span class="location"></span></h5>
   
 </div>
 <script type="text/javascript">
@@ -325,6 +339,7 @@ function geoLocationError(error) {
 }
 
 </script>
+</div>
 </aside>
 <section>
 </section>
